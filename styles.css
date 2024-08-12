@@ -20,7 +20,7 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 90px);
-    gap: 20px;
+    gap: 10px;
 }
 
 .box {
