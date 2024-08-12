@@ -46,10 +46,9 @@ h1 {
 }
 
 .box p {
-    margin-bottom: 0;
+    margin-bottom: 1;
     font-size: 0.9em;
     color: #ffffff;
-    text-align: down;
 }
 
 @media (max-width: 768px) {
