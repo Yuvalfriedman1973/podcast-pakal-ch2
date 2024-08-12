@@ -46,12 +46,12 @@ h1 {
 
 .box p {
     margin-bottom: 0;
-    font-size: 0.9em;
+    font-size: 0.6em;
     color: #777;
 }
 
 @media (max-width: 768px) {
     .grid {
-        grid-template-columns: 10;
+        grid-template-columns: 12;
     }
 }
