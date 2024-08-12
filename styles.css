@@ -46,9 +46,13 @@ h1 {
 }
 
 .box p {
-    margin-bottom: 1;
+    margin-bottom: 0;
     font-size: 0.9em;
     color: #ffffff;
+}
+
+.p {
+    height: 100%
 }
 
 @media (max-width: 768px) {
