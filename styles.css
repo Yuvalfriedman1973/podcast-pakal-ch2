@@ -22,7 +22,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 115px);
     gap: 10px;
-    margin: 3%;
+    margin: 2%;
 }
 
 .box {
