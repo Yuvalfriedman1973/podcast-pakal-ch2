@@ -24,6 +24,12 @@ p1 {
     font-size: 1.6em;
 }
 
+p2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 115px);
