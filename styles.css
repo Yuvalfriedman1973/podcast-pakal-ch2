@@ -49,6 +49,7 @@ p {
 .box h2 {
     margin-top: 0;
     font-size: 1.2em;
+    pading: 1px;
 }
 
 .box p {
@@ -65,7 +66,7 @@ p {
 }
 
 .p {
-    height: 10%
+    height: 10%;
 }
 
 @media (max-width: 768px) {
