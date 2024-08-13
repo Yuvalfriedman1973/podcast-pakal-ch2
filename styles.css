@@ -59,11 +59,11 @@ p {
 }
 
 .content-container {
-    width: 100%;
+    width: 80%;
     text-size: 1px;
     text-align: right;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px;
 }
 
 .p {
