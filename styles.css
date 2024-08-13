@@ -52,7 +52,7 @@ p {
 }
 
 .box p {
-    margin-bottom: 0.1px;
+    margin-bottom: 0;
     font-size: 0.9em;
     color: #ffffff;
 }
