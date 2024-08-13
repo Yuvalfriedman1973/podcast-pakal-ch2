@@ -60,6 +60,7 @@ p {
 
 .content-container {
     width: 100%;
+    text-size: 1px;
     text-align: right;
     margin: 0 auto;
     padding: 20px;
@@ -68,6 +69,7 @@ p {
 .p {
     height: 10%;
 }
+
 
 @media (max-width: 768px) {
     .grid {
