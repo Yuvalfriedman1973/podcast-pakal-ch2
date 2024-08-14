@@ -66,14 +66,13 @@ body {
 
 .content-container {
     width: 100%;
-    text-size: 3px;
-    text-align: right;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-.p {
-    height: 30%;
+.content-container p {
+    text-size: 3px;
+    text-align: right;
 }
 
 
