@@ -54,14 +54,13 @@ body {
 .box h2 {
     margin-top: 0;
     font-size: 1.2em;
-    pading-top: 10px;
+    pading-top: 0;
     color: #ffffff;
 }
 
 .box p {
     font-size: 0.95em;
     color: #61ad9c;
-    top: 1%;
 }
 
 .content-container {
