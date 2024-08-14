@@ -12,18 +12,6 @@ body {
     padding-top: 1.8px;
 }
 
-h1 {
-    
-}
-
-p1 {
-    
-}
-
-p2 {
-    
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
