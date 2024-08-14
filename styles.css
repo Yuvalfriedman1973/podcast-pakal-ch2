@@ -32,7 +32,7 @@ p2 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(3, auto);
     gap: 10px;
     margin: 2%;
 }
