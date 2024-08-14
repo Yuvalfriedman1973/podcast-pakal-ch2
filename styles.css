@@ -74,6 +74,9 @@ body {
     text-align: right;
 }
 
+.youtube {
+    width: 10%;
+}
 
 @media (max-width: 768px) {
     .grid {
