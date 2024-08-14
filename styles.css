@@ -11,6 +11,9 @@ body {
     margin: 10px;
     padding-top: 1.8px;
 }
+h1 {
+    text-align: center;
+}
 
 .grid {
     display: grid;
