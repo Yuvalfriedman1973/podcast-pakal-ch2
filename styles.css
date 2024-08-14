@@ -32,7 +32,7 @@ p2 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 120px);
+    grid-template-columns: repeat(3, 125px);
     gap: 10px;
     margin: 2%;
 }
@@ -43,7 +43,7 @@ p2 {
     padding: 10%;
     text-align: center;
     text-decoration: none;
-    color: #61ad9c;
+    color: #f4f4f4;
     transition: transform 0.2s;
 }
 
@@ -61,7 +61,7 @@ p2 {
 .box p {
     margin-bottom: 0;
     font-size: 0.95em;
-    color: #ffffff;
+    color: #61ad9c;
     top: 1%;
 }
 
