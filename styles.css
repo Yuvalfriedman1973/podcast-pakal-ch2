@@ -28,7 +28,7 @@ body {
     grid-columns: 20px;
     width: 100%;
     gap: 10px;
-    margin: 10px;
+    margin: 0;
 }
 
 .box {
