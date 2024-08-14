@@ -12,11 +12,11 @@ body {
     padding-top: 1.8px;
 }
 
-h1 {
+.container h1 {
     text-align: center;
 }
 
-h2 {
+.container h2 {
     text-align: center;
     color: #61ad9c;
 }
