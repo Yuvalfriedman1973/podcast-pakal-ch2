@@ -70,6 +70,10 @@ body {
     padding: 0;
 }
 
+.content-container h1 {
+    text-align: center;
+}
+
 .content-container p {
     text-size: 3px;
     text-align: right;
