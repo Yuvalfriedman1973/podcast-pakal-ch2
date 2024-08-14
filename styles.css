@@ -33,6 +33,7 @@ p2 {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    width: 30%;
     gap: 10px;
     margin: 2%;
 }
