@@ -27,7 +27,7 @@ body {
     grid-template-columns: repeat(3, 90px);
     grid-columns: 20px;
     width: 95%;
-    gap: 1px;
+    gap: 2px;
     margin: 0 10px 10px 10px; 
 }
 
