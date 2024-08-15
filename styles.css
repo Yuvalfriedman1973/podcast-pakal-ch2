@@ -77,7 +77,7 @@ body {
 }
 
 .img {
-    width: 50%;
+    width: 3px;
 }
 
 @media (max-width: 768px) {
