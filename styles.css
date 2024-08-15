@@ -26,7 +26,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 100px;
-    justify-content: space-around;
     columns-gap: 15px;
     rows-gap: 5px;
 }
