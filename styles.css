@@ -24,8 +24,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3,95px);
-    grid-columns: 150px;
+    grid-template-columns: 150px 150px 150px;
     gap: 5px;
     margin: 0 10px 10px 10px; 
 }
