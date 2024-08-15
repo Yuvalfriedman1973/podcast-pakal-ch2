@@ -61,9 +61,7 @@ body {
 }
 
 .content-container {
-    width: 100%;
-    margin: 0;
-    padding: 20px;
+    justify-content: center;
 }
 
 .content-container h1 {
