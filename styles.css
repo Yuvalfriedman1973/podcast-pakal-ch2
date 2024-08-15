@@ -75,7 +75,7 @@ body {
     display: flex;
 }
 
-.img {
+.content-container a {
     width: 3px;
 }
 
