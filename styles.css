@@ -72,6 +72,11 @@ body {
     text-align: right;
 }
 
+.YouTube {
+    aspect-ratio: 16/9;
+    width: 300px;
+}
+
 #flex-container {
     display: flex;
 }
