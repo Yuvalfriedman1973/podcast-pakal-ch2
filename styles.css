@@ -49,16 +49,16 @@ body {
 }
 
 .box h2 {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.1em;
-    padding-top: 0;
+    padding: 0;
     color: #ffffff;
 }
 
 .box p {
     font-size: 0.95em;
     color: #ffffff;
-    padding-end: 0;
+    padding: 0;
 }
 
 .content-container {
