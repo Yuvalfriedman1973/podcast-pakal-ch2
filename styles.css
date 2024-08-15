@@ -73,8 +73,8 @@ body {
     text-align: right;
 }
 
-.content-container a {
-    width: 5px;
+#flex-container {
+    display: flex;
 }
 
 @media (max-width: 768px) {
