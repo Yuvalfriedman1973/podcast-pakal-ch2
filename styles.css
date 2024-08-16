@@ -61,6 +61,7 @@ body {
 
 .content-container {
     justify-content: center;
+    background: #61ad9c;
 }
 
 .content-container h1 {
