@@ -86,7 +86,7 @@ body {
 .player {
     aspect-ratio: 16 / 9;
     width: 90%;
-    padding-top: 12px;
+    padding-top: 13px;
 }
 
 @media (max-width: 768px) {
