@@ -70,6 +70,7 @@ body {
 .content-container p {
     text-size: 3px;
     text-align: right;
+    background: #61ad9c;
 }
 
 #flex-container {
