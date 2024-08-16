@@ -26,9 +26,9 @@ body {
 
 .grid {
     display: grid;
+    background: #61ad9c;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 95px;
-    pap: 5px;
 }
 
 .box {
