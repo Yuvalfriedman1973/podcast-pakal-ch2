@@ -78,14 +78,12 @@ body {
     width: 0;
 }
 
-.bottom {
-    background: #61ad9c;
-}
-
 .player {
     aspect-ratio: 16 / 9;
     width: 90%;
     padding-top: 13px;
+    border: 1px;
+    borser-color: #61ad9c;
 }
 
 @media (max-width: 768px) {
