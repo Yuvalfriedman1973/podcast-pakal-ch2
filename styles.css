@@ -71,7 +71,6 @@ body {
 .content-container p {
     text-size: 3px;
     text-align: right;
-    background: #61ad9c;
 }
 
 #flex-container {
@@ -80,6 +79,10 @@ body {
 
 .content-container a {
     width: 0;
+}
+
+.bottom {
+    background: #61ad9c;
 }
 
 .player {
