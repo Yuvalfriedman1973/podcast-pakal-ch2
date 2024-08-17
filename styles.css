@@ -8,8 +8,6 @@ body {
     width: 100%;
     margin: 10px;
     padding-top: 1.9px;
-    display: flex;
-    justify-content: space-netween;
 }
 
 .container h1 {
