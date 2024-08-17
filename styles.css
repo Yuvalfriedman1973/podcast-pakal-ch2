@@ -82,7 +82,7 @@ body {
     aspect-ratio: 16 / 9;
     width: 95%;
     padding-top: 1px;
-    borser-color: #61ad9c;
+    border-color: #61ad9c;
 }
 
 @media (max-width: 768px) {
