@@ -9,51 +9,75 @@
 <body dir="rtl">
     <div class="container">
         <h1>פודקאסט SLICED</h1>
-         <h1>על פיקוד במילואים</h1>
+        <h1>על פיקוד במילואים</h1>
         <hr>
         <h2>כינוס קודקודים</h2>
         <h2>פרק  2 - קודקוד גברבר</h2>
+        <div class="bottom">
+            <center><iframe id="player" src="https://www.youtube.com/embed/Gu1OKe5Kqqw?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </div>
         <div class="grid">
-            <a href="section1.html" class="box">
+            <a class="box" data-start="0">
                 <h2>הכרזה על המ"פ החדש</h2>
                 <p>00:00 - 03:12</p>
             </a>
-            <a href="section2.html" class="box">
-                <h2>      פיקוד במילואים</h2>
+            <a class="box" data-start="192">
+                <h2>פיקוד במילואים</h2>
                 <p>03:12 - 06:05</p>
             </a>
-            <a href="section3.html" class="box">
-                <h2>      כניסה ללחימה</h2>
+            <a class="box" data-start="365">
+                <h2>כניסה ללחימה</h2>
                 <p>06:05 - 13:19</p>
             </a>
-            <a href="section4.html" class="box">
-                <h2>      הקרב והפיצוץ</h2>
+            <a class="box" data-start="799">
+                <h2>הקרב והפיצוץ</h2>
                 <p>13:19 - 20:32</p>
             </a>
-            <a href="https://youtu.be/Gu1OKe5Kqqw?si=-xcUmB5k9wwU0s1Q&t=1232" class="box">
-                <h2>      לקיחת פיקוד</h2>
+            <a class="box" data-start="1232">
+                <h2>לקיחת פיקוד</h2>
                 <p>20:32 - 26:38</p>
             </a>
-            <a href="section6.html" class="box">
+            <a class="box" data-start="1598">
                 <h2>ארגון הפל' מחדש</h2>
                 <p>26:38 - 37:01</p>
             </a>
-            <a href="section7.html" class="box">
-                <h2>      בניית כוח</h2>
+            <a class="box" data-start="2221">
+                <h2>בניית כוח</h2>
                 <p>37:01 - 44:00</p>
             </a>
-            <a href="section8.html" class="box">
-                <h2>      למידה אישית</h2>
+            <a class="box" data-start="2640">
+                <h2>למידה אישית</h2>
                 <p>44:00 - 49:03</p>
             </a>
-            <a href="section9.html" class="box">
+            <a class="box" data-start="2943">
                 <h2>הקדשה לזכר הנופלים</h2>
                 <p>49:03 - סיום</p>
             </a>
         </div>
-        <biv class="bottom">
-            <center><iframe class="player" src="https://www.youtube.com/embed/Gu1OKe5Kqqw?si=rR-NB64L8mu9yIoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
-        </biv>
-     </div>
+    </div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    let player;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            events: {
+                'onReady': onPlayerReady,
+            }
+        });
+    }
+
+    function onPlayerReady(event) {
+        const sectionLinks = document.querySelectorAll('.box');
+        sectionLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault(); // Prevent default anchor behavior
+                const startTime = link.getAttribute('data-start');
+                player.seekTo(parseInt(startTime), true);
+                player.playVideo();
+            });
+        });
+    }
+</script>
 </body>
 </html>
