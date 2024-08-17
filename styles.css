@@ -79,8 +79,8 @@ body {
 }
 
 .bottom {
-    aspect-ratio: 16 / 9;
-    width: 100%;
+    width: 100;
+    height: 56;
     padding: 0;
     margin: 0;
     border-color: #61ad9c;
