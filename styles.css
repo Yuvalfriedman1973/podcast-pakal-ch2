@@ -86,14 +86,6 @@ body {
     width: 0;
 }
 
-.bottom {
-    width: 100;
-    height: 56;
-    padding: 0;
-    margin: 0;
-    border-color: #61ad9c;
-}
-
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 12;
