@@ -80,7 +80,7 @@ body {
 
 .player {
     aspect-ratio: 16 / 9;
-    width: 95%;
+    width: 100%;
     padding-top: 1px;
     border-color: #61ad9c;
 }
